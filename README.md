@@ -40,3 +40,5 @@ npm install
 # serve with hot reload at localhost:8080
 npm run dev
 ```
+
+参考：https://blog.yqiu.net/2017/07/06/vue-dynamic-load-router/
