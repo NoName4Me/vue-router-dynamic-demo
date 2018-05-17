@@ -4,18 +4,18 @@
 
 动态配置 router，利用 `router.addRoutes()`。
 
-根据自定义的路由：
+根据动态的路由配置：
 
 ```json
 [{
-  path: "/dev",
-  name: "开发者",
-  component: "Developer",
-  children: [
+  "path": "/dev",
+  "name": "开发者",
+  "component": "Developer",
+  "children": [
     {
-      path: "fresh-fish-dev",
-      name: "萌新",
-      component: "FreshFishDeveloper"
+      "path": "fresh-fish-dev",
+      "name": "萌新",
+      "component": "FreshFishDeveloper"
     }]
 }]
 ```
