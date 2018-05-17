@@ -1,6 +1,4 @@
-# vue-playground
-
-> A Vue.js project
+# 动态修改 vue 路由
 
 动态配置 router，利用 `router.addRoutes()`。
 
